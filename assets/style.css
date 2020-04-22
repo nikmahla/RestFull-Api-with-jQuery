@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('fonts/iransans_regular.woff2') format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('fonts/iransans_regular.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('fonts/iransans_ultralight.woff2') format('woff2');
+    font-weight: 200;
+}
+
+body{
+    direction: rtl;
+    text-align: right;
+    box-sizing: border-box;
+    font-family: 'iransans', tahoma;
+}
+
+.hide{
+    display: none;
+}
